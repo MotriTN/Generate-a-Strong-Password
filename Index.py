@@ -30,3 +30,4 @@ for i in range(part1):
 for i in range(part2):
     password.append(s3[i])
     password.append(s4[i])
+print(password)
