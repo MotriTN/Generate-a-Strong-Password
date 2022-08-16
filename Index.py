@@ -9,7 +9,9 @@ characters_number=input("how many characters for the password ?:")
 while True:
     try:
         characters_number=int(characters_number)
-        if charachters_number = input ("please enter the number again: ")
+        if characters_number<6:
+            print("you need at least6characters")
+            characters_number=input("please enter the number again:")
         else :
             break
     except:
@@ -19,3 +21,4 @@ random.shuffle(s1)
 random.shuffle(s2)
 random.shuffle(s3)
 random.shuffle(s4)
+print(s1)
