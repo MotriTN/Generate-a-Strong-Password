@@ -7,3 +7,6 @@ characters_number=input("how many characters for the password ?:")
 while True:
     try:
         characters_number=int(characters_number)
+        if charachters_number = input ("please enter the number again: ")
+        else :
+            break
