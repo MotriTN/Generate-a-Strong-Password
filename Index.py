@@ -1,6 +1,5 @@
 import string
 import random
-
 s1=list(string.ascii_lowercase)
 s2=list(string.ascii_uppercase)
 s3=list(string.digits)
@@ -30,4 +29,5 @@ for i in range(part1):
 for i in range(part2):
     password.append(s3[i])
     password.append(s4[i])
+password="".join(password[0:1])
 print(password)
